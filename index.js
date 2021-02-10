@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello welcom to Prahem Technology!\n'
+  const msg = 'Hello welcome to pickkup Hyderbad!\n'
   res.end(msg);
 });
 
