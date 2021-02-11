@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Please deploy the co!\n'
+  const msg = 'lease deployment forever\n'
   res.end(msg);
 });
 
